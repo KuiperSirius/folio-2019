@@ -5,6 +5,9 @@ Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
 
 ``` bash
+# update your server default config (New)
+curl -sL https://rpm.nodesource.com/setup_10.x | bash -
+
 # Just be sure that you've got parcel js on you system
 npm install -g parcel-bundler
 
@@ -14,6 +17,6 @@ npm i
 # Serve at localhost:1234
 npm run dev
 
-# Build for production in the dist/ directory
+# Build for production in the dist/ directory (Nginx Web directory)
 npm run build
 ```
